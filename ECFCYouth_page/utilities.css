@@ -1,0 +1,153 @@
+/* text colors */
+.text-primary{
+  color: #f5a62f;
+}
+
+.text-secondary{
+  color: #0284d0;
+}
+/* Button */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #f5a62f;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary, .bg-primary{
+  background: #da8d19;
+  color: #fff;
+}
+.btn-secondary, .bg-secondary{
+  background: rgb(165, 15, 15);
+  color: #fff;
+}
+.btn-dark, .bg-dark {
+  background: rgb(7, 7, 7);
+  color: #fff;
+}
+.btn-light, .bg-light {
+  background: #f5f3f0;
+  color: rgb(19, 18, 18);
+}
+
+/* flex items */
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.flex-items > div {
+  padding: 20px;
+}
+
+/* flex columns */
+/* .flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+} */
+
+/* .flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+} */
+
+/* .flex-columns .column .column-1, 
+.flex-columns .column .column-2 {
+  height: 100%;
+} */
+/* title underline */
+.underline {
+  width: fit-content ; 
+  border-bottom: 3px solid #f5a62f;
+  padding-bottom: 1px;
+}
+span{
+  border-bottom: 3px solid #f5a62f;
+  width: min-content;
+}
+
+/* section header  */
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-header h2{
+  font-size: 40px;
+  margin:  20px 0;
+}
+
+.section-header{
+  padding: 20px 20px 40px;
+}
+
+/* swction-header 2  */
+.section-header2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-header2 h2{
+  font-size: 30px;
+  color: #f5a62f;
+  margin:  20px 0;
+}
+
+.section-header2 {
+  padding: 10px 10px 10px;
+}
+
+
+/* Flex grid */
+.flex-grid .row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+@media only screen and (max-width: 755px) {
+  .flex-grid .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+}
+@media only screen and (max-width: 400px) {
+
+  .flex-grid .column {
+    flex: 75%;
+    max-width: 100%;
+    padding: 0 4px;
+  }
+}
+
+
